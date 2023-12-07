@@ -1,5 +1,18 @@
-/vendor/
+.phpunit.cache/
 node_modules/
+
+vendor/
+
+.env
+.env.backup
+.env.production
+
+auth.json
+
+.fleet/
+.idea/
+.vscode/
+
 npm-debug.log
 yarn-error.log
 
@@ -8,6 +21,7 @@ bootstrap/compiled.php
 app/storage/
 
 # Laravel 5 & Lumen specific
+public/build
 public/storage
 public/hot
 
@@ -16,7 +30,6 @@ public_html/storage
 public_html/hot
 
 storage/*.key
-.env
 Homestead.yaml
 Homestead.json
 /.vagrant
